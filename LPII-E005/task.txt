@@ -1,0 +1,9 @@
+Faça um programa em C/C++ que implemente um monitor que controle o acesso de leitura e escrita a um arquivo de log. A criação do monito deve associá-lo a um arquivo de texto cujo nome 
+deve ser baseado na data e hora atual do sistema. As operações de escrita e leitura devem ser implementadas de forma a satisfazer a propriedade de exclusão mútua no acesso ao arquivo. 
+Cada entrada no arquivo (i.e. operação de escrita) deve ter por prefixo a data e hora da inserção (e.g. se a operação for inserir a string "ABRACADABRA" no arquivo, ela será inserida no 
+arquivo usando a data e hora corrente como prefixo - "06/04/2020 - 15:00 ABRACADABRA").
+
+Faça que o programa crie dois monitores (com um arquivo para cada) e faça 5 threads realizarem operações de escrita nesses monitores; antes do término do programa ele deve exibir o 
+conteúdo dos arquivos usando os monitores.
+
+Referência auxiliar:  https://en.wikipedia.org/wiki/C_date_and_time_functions   Até as 22h do dia 06/04/2020 vale 3pts Até as 12h de 07/04/2020 vale 1,5pts

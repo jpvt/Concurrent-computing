@@ -1,0 +1,3 @@
+Boa Noite !
+Essa mensagem está sendo enviada via servidor UDP !
+Muito melhor que wpp e telegram !

@@ -1,0 +1,18 @@
+Faça dois programas em C/C++ para realizar a cópia de arquivos de texto entre duas máquinas utilizando o protocolo UDP.
+
+Faça um programa receptor, que aguarde em uma porta pré definida a recepção de dados referentes a um arquivo de texto. Faça também um programa emissor, 
+que envia o arquivo de texto para o receptor. 
+
+Exemplo de execução (Receptor):
+
+$ ./receptor 9990
+
+Irá aguardar o arquivo na porta 9990.
+
+ 
+
+Exemplo de execução (Emissor):
+
+$ ./emissor arquivo.txt X.X.X.X 9990
+
+Irá enviar o arquivo para o receptor, onde arquivo.txt é o arquivo a ser enviado, X.X.X.X é o IP do receptor, 9990 a porta. 
